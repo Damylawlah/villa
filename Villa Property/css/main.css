@@ -1,0 +1,220 @@
+/* ====== SECTION ONE STARTS HERE  ===== */
+.section_one {
+    border-bottom: 1px solid #ccc;
+}
+.section_one .top_header {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section_one .top_header 
+.top_header_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_one .top_header 
+.top_header_info p:first-child{
+    margin-right: 30px;
+}
+
+.section_one .top_header 
+.top_header_info p{
+    font-size: 14px;
+}
+
+.section_one .top_header 
+.top_header_info span i{
+    font-size: 20px;
+    color: #f35525;
+    padding-right: 10px;
+}
+
+
+/* ======== MAIN HEADER STARTS HERE  ======= */
+.header_section {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding-block: 30px;
+    position: sticky;
+    top:0px;
+    z-index: 3;
+}
+
+.main_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main_header .logo{
+    font-size: 22px;
+    font-weight: 800; 
+}
+
+.main_header ul{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.main_header ul li{
+    font-size: 20px;
+    font-weight: 500;
+    transition: all ease-in-out 0.5s;
+}
+
+.main_header ul li a{
+    transition: all ease 0.4s;
+}
+
+.main_header ul li a:hover{
+    color: #f35525;
+}
+
+
+.main_header ul li:last-child a{
+    background-color: #000;
+    color: #fff;
+    padding: 6px 20px 8px 45px;
+    position: relative;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.fa-calendar {
+    background-color: #f35525;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 18px !important;
+    padding: 11px;
+    z-index: 1;
+    margin-top: -4px;
+    margin-left: 0px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/* ====== SECTION THREE =====  */
+
+.section_three {
+    width: 100%;
+    height: 85vh;
+    background-image: url(../images/banner-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section_three div{
+    margin-top: 80px;
+}
+
+.section_three p {
+    width: 170px;
+    color: #fff;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.section_three p span{
+    color: #f35525;
+    
+}
+
+.section_three h2{
+    width: 580px;
+    color: #fff;
+    font-size: 65px;
+    line-height: 1.3;
+}
+.section_four{
+    width: 100%;
+    height: 100vh;
+}
+.features_info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_four .featured_icon{
+    position: relative;
+}
+.section_four .featured_icon .background_image{
+    width: 80%;
+    height: auto;
+}
+.section_four .featured_icon .overlay_image{
+    position: absolute;
+    bottom: -22px;
+    left: -36px;
+    width: 32%;
+    height: 27%;
+    background-color: #f35525;
+    padding: 8px 10px 10px 15px;
+    border-radius: 50%;
+}
+.section_four .best_apartment{
+text-align: left;
+justify-content: center;
+gap: 50px;
+flex-wrap: wrap;
+background-color: #fff;
+line-height: 1.5;
+
+}
+
+.section_four .best_apartment .stroked_text::before{
+    content: "";
+    position: relative;
+    top: 0;
+    left: -20px;
+    width: 10px;
+    height: 100%;
+    background-color: #f35525;
+}
+
+.stroked_text{
+    color: #f35525;
+    font-size: x-small;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.sub_stroked_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.useful_link{
+    color: #f35525;
+    font-size: 10px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.best_apartment{
+    width: 450px;
+    height: auto;
+    background-color: #ebebeb;
+}
+.best_apartment.useful_link p:last-child{
+font-size: 10px;
+word-spacing: 1px;
+letter-spacing: 2px;
+line-height: 30px;
+}
