@@ -277,7 +277,9 @@ padding-left: -10px;
 .video_section_content {
     margin-top: -220px;
 }
-
+.video_section_overlay{
+    margin-top: -80px;
+}
 .video_section .section_heading h6 {
 margin-top: 10px;
 align-content: center;
@@ -317,3 +319,62 @@ margin-bottom: 20px;
     outline: 15px solid rgba(254, 85, 37, 0.5);
     font-size: 18px;
 }
+
+
+/* ==== key avhievement starts here=== */
+
+.key_achievement_holder{
+    /* text-align: center;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-content: center; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+
+}
+
+.first_achievement{
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.first_achievement h2, p {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.first_achievement p {
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.first_achievement h2 {
+    margin-right: 25px;
+    font-size: 40px;
+    color: #f35525;
+}
+
+.first_achievement:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+
+
