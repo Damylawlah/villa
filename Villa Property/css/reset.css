@@ -42,10 +42,15 @@ i:hover {
     color: #f35525 !important;
 }
 
-.best_apartment p{
-    margin-bottom: 30px;
-    background-color: #ccc;
-    
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
 }
 
-
+p {
+    font-size: 14px;
+    line-height: 28px;
+    /* color: #4a4a4a; */
+}

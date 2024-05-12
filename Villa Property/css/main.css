@@ -147,74 +147,173 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-left: -100px;
 }
 .section_four .featured_icon{
     position: relative;
 }
 .section_four .featured_icon .background_image{
-    width: 80%;
-    height: auto;
+   padding-left: 55px;
 }
 .section_four .featured_icon .overlay_image{
     position: absolute;
-    bottom: -22px;
-    left: -36px;
-    width: 32%;
-    height: 27%;
+    display: block;
+    padding: 228px;
+    line-height: 110px;
     background-color: #f35525;
-    padding: 8px 10px 10px 15px;
     border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    left: 20px;
+    bottom: 90px;
 }
 .section_four .best_apartment{
 text-align: left;
 justify-content: center;
 gap: 50px;
 flex-wrap: wrap;
-background-color: #fff;
 line-height: 1.5;
-
-}
-
-.section_four .best_apartment .stroked_text::before{
-    content: "";
-    position: relative;
-    top: 0;
-    left: -20px;
-    width: 10px;
-    height: 100%;
-    background-color: #f35525;
-}
-
-.stroked_text{
-    color: #f35525;
-    font-size: x-small;
-    margin-bottom: 20px;
-    text-align: left;
-}
-.sub_stroked_text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: left;
-    word-spacing: 2px;
-    letter-spacing: 2px;
-}
-.useful_link{
-    color: #f35525;
-    font-size: 10px;
-    word-spacing: 1px;
-    letter-spacing: 2px;
-    line-height: 30px;
 }
 
 .best_apartment{
-    width: 450px;
-    height: auto;
-    background-color: #ebebeb;
+    margin: 20px 20px 10px 20px;
+    width: 100%;
 }
-.best_apartment.useful_link p:last-child{
-font-size: 10px;
-word-spacing: 1px;
-letter-spacing: 2px;
-line-height: 30px;
+.best_apartment p{
+    position: relative;
+	display: block;
+	padding: 13px 60px 15px 13px;
+	margin-bottom: 2px;
+	color: #202020;
+	font-size: 20px;
+	text-decoration: none;
+	/* background-color: #cecece38; */
+	border-radius: 3px;
+    cursor: pointer;
+}
+.best_apartment .best_apartment_top{
+    margin: 10px 10px 60px 0;
+}
+.best_apartment .best_apartment_top h2{
+    font-size: xx-large;
+    margin-top: 20px;
+
+}
+.best_apartment_top h6{
+    color: #f35525;
+}
+
+.best_apartment .useful_link{
+    background-color: #cecece38;
+    padding: 10px 5px 10px 20px;
+}
+.best_apartment_details .useful_link #best_useful_link{
+    margin-bottom: 50px;
+    color: #f35525;
+}
+
+.best_apartment .stroked_text{
+    margin: 10px 10px 60px 0;
+}
+
+.top_land_description{
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.17);
+    padding: 35px 30px;
+    margin-left: 30px;
+    margin-right: 100px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 70px;
+
+}
+.top_land_description ul li{
+    display: block;
+    margin-bottom: 85px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #f1f1f1;
+  
+}
+.top_land_description ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.top_land_description img{
+width: 40px;
+float: left;
+margin-right: 15px;
+margin-left: -30px;
+padding-left: -10px;
+}
+
+.top_land_description ul li h4 {
+    font-size: 20px;
+    font-weight: 600; 
+    text-align: left;
+    line-height: 0.8;
+   
+}
+
+.top_land_description ul li h4 span {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.video_section {
+    background-image: url(../images/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px 250px 0px;
+    position: relative;
+    margin-top: 140px;
+}
+
+.video_section_content {
+    margin-top: -220px;
+}
+
+.video_section .section_heading h6 {
+margin-top: 10px;
+align-content: center;
+text-align: center;
+color: #f35525;
+margin-bottom: 20px;
+}
+.video_section .section_heading h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.video_section_content .video_section_overlay {
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.video_section_content .video_section_overlay img {
+    border-radius: 10px;
+
+}
+
+.video_section_content .video_section_overlay a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    color: #f35525;
+    outline: 15px solid rgba(254, 85, 37, 0.5);
+    font-size: 18px;
 }
